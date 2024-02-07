@@ -1,0 +1,136 @@
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: cornsilk;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+form .title h3 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.form .id label,
+.form .id input {
+  display: none;
+}
+
+form .email input,
+form  .password input
+{
+  width: 100%;
+  height: 30px;
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: 3px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+form .otp input{
+  width: 100%;
+  height: 30px;
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: 3px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+.form .id input,
+.form .username input,
+.form .email input,
+.form .address input ,
+.form  .mobile input,
+.form  .password input
+{
+  width: 100%;
+  height: 30px;
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: 3px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* .form .btn button {
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+  background: crimson;
+  font-size: 20px;
+  font-weight: 700;
+} */
+
+/* form .btn button {
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+  background: crimson;
+  font-size: 20px;
+  font-weight: 700;
+} */
+
+.form .address{
+    display: flex;
+    gap: 10px;
+}
+
+.form .stream select{
+    height: 30px;
+}
+
+.form .address select{
+    height:30px;
+    background-color: transparent;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.form .username {
+  display: flex;
+  gap: 10px;
+}
